@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap');
+
+* {
+	padding: 5px;
+	margin: 5px;
+    box-sizing: border-box;
+    color: black;
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+@media (min-width: 100px) {
+
+#nav-header {
+    width: 100%;
+}
+
+#brand {
+    font-size: 2em;
+    background-color:whitesmoke;    
+    color: black;
+    text-align: center;
+}
+
+.header  {
+    display: block;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #D2CACA;
+}
+
+.header ul {
+    text-align: center;
+    list-style-type: none;
+    background-color: whitesmoke;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    overflow: hidden;
+    width: 100%;
+    line-height: 40px;
+}
+
+#nav li {
+    display:block;
+}
+
+.header ul a {
+    text-decoration: none;
+    color:black;
+}
+
+.header ul a:hover {
+    color:#F77F00;
+}
+
+
+
+
+#front {
+    display:flex;
+    flex-wrap: wrap-reverse;
+}
+
+#front {
+    min-height: 60vh;
+    background-color: black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #D2CACA;
+}
+
+.section1 {
+    margin-left: 50px;
+    font-size: 1.2em;
+}
+
+#front-heading , #front-subheading {
+    color: whitesmoke;
+}
+
+
+#front-img {
+    width: 90%;
+    height: 90%;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+
+
+
+
+
+#aboutme {
+    min-height: 80vh;
+    background-color: #ededed;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px #D2CACA;
+    margin-top: 15px;
+}
+
+#section2-heading {
+    text-align: center;
+    font-size: 1.8em;
+    margin-top: 10px;
+}
+
+.about1 {
+    display: block;
+}
+
+#about-img {
+    width: 100%;
+}
+
+#aboutinfo {
+    width: 100%;
+    letter-spacing: 1px;
+    margin: auto;
+}
+
+#aboutimg {
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 40px;
+}
+
+#aboutinfo p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+#projects {
+    min-height: 30vh;
+    background-color: black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px #D2CACA;
+    margin-top: 15px;
+    color: whitesmoke;
+}
+
+#projectdiv {
+    margin-top: auto;
+    margin: auto;
+    margin-bottom: auto;
+}
+
+#projectdiv p {
+    font-size: 1.2em;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 3.1em;
+}
+
+#projectdiv h1 {
+    font-size: 1.8em;
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+}
+
+@media (min-width: 800px) {
+
+#nav-header {
+        width: 100%;
+}
+
+#brand {
+    font-size: 2em;
+    background-color:whitesmoke;    
+    color: black;
+    text-align: left;
+}
+
+.header  {
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #D2CACA;
+}
+
+#name {
+    width: 50%;
+    text-align: left;
+}
+
+#nav {
+    width: 50%;
+}
+
+.header ul {
+    text-align: center;
+    list-style-type: none;
+    background-color: whitesmoke;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    overflow: hidden;
+    width: 100%;
+    line-height: 20px;
+}
+
+#nav li {
+    display: inline-block;
+    
+}
+
+.header ul a {
+    text-decoration: none;
+    color:black;
+}
+
+.header ul a:hover {
+    color:#F77F00;
+}
+
+
+
+
+
+
+#front {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    min-height: 80vh;
+    background-color: black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #D2CACA;
+}
+
+.section1 {
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 17%;
+    font-size: 1.7em;
+    width: 50%;
+}
+
+#front-heading , #front-subheading {
+    color: whitesmoke;
+}
+
+.section1img {
+    width: 50%;
+}
+
+#front-img {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    width: 80%;
+    height: 80%;
+    border-radius: 50px;
+}
+
+
+
+
+
+#aboutme {
+    min-height: 80vh;
+    background-color: #ededed;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px #D2CACA;
+    margin-top: 15px;
+}
+
+#section2-heading {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.about1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#about-img {
+    width: 50%;
+}
+
+#aboutinfo {
+    width: 50%;
+    letter-spacing: 1px;
+    margin: auto;
+}
+
+#aboutimg {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+}
+
+#aboutinfo p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+#projects {
+    min-height: 30vh;
+    background-color: black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px #D2CACA;
+    margin-top: 15px;
+    color: whitesmoke;
+}
+
+#projectdiv {
+    margin-top: auto;
+    margin: auto;
+    margin-bottom: auto;
+}
+
+#projectdiv p {
+    font-size: 1.5em;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 3.1em;
+}
+
+#projectdiv h1 {
+    font-size: 2em;
+    color: whitesmoke;
+    text-align: center;
+}
+
+}
